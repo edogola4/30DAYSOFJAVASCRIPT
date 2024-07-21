@@ -21,3 +21,5 @@ console.log(counter()); // 10
 console.log(counter()); // 11
 console.log(counter()); // 12
 
+// to run the above code type the following in the treminal
+// node counters.js
