@@ -8,10 +8,18 @@ Write a function createHelloWorld. It should return a new function that always r
 function createHelloWorld() {
     const greeting = "Hello world"
 
-    return function (){
+    return function () {
         return greeting;
     };
 }
-myFunction = createHelloWorld
-console.log(myFunction())
-print(myFunction())
+/**Create a function that will return "Hello World" */
+
+const myFunction = createHelloWorld();
+
+// Display the result in the terminal
+console.log(myFunction());
+
+
+// To run the above code open the Terminal and type:
+// node createHelloWorld.js
+// The output will be Hello World
